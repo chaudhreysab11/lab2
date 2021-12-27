@@ -3,4 +3,6 @@ def add(num1,num2):
     return num1+num2
 
 #main
-print("This addition of 5 and 3 is",add(5,3))
+a  = int(input("First numnber:"))
+b = int(input("Second numnber:"))
+print(f"This addition of {a} and {b} is",add(a,b))
